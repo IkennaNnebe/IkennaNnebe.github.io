@@ -1,6 +1,6 @@
 body{
-    background-color: #2D3242;
-    color: white;
+    background-color: lightcoral;
+    color: black;
     font-family: Helvetica;
     text-align: center;
     display:flex;
@@ -10,6 +10,8 @@ body{
 h1 {
     font-size: 40px;
     padding: 10px;
+    background-color: lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card_container{
@@ -18,23 +20,23 @@ h1 {
 }
 
 img {
-    width: 45%;
+    width: 50%;
 }
 
 .card{
     width: 33%;
     margin: 15px;
     padding: 25px;
-    border-left: 1px solid #B1D7FE;
-    border-right: 1px solid #B1D7FE;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
+    border-left: 5px solid #B1D7FE;
+    border-right: 5px solid #B1D7FE;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
     transition: border 500ms;
 }
 
 .card:hover{
-    border-top: 1px solid #B1D7FE;
-    border-bottom: 1px solid #B1D7FE;
+    border-top: 5px solid #B1D7FE;
+    border-bottom: 5px solid #B1D7FE;
 }
 
 @media(max-width:1030px){
